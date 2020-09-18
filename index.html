@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="/assets/calc.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <main>
+    <div class="calcDisplay">
+      <div class="topStipe">
+        <p>noyes calculator app</p>
+        <div id="display" class="display">
+
+        </div>
+      </div>
+    </div>
+    <div class="calcBottom">
+      <div class="numbers">
+        <div id="seven" class="seven number">
+          <p value="7" onclick='dis("7")'>7</p>
+        </div>
+        <div class="eight number">
+          <p>8</p>
+        </div>
+        <div class="nine number">
+          <p>9</p>
+        </div>
+        <div class="four number">
+          <p>4</p>
+        </div>
+        <div class="five number">
+          <p>5</p>
+        </div>
+        <div class="six number">
+          <p>6</p>
+        </div>
+        <div class="one number">
+          <p>1</p>
+        </div>
+        <div class="two number">
+          <p>2</p>
+        </div>
+        <div class="three number">
+          <p>3</p>
+        </div>
+        <div class="zero number">
+          <p>0</p>
+        </div>
+      </div>
+      <div class="actions">
+        <div class="add actionWidth">
+          <p>+</p>
+        </div>
+        <div class="subtract actionWidth">
+          <p>-</p>
+        </div>
+        <div class="equals actionWidth">
+          <p>=</p>
+        </div>
+        <div onclick="clr()" class="delete actionWidth">
+          <p>delete</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="js/calc.js" charset="utf-8"></script>
+  </body>
+</html>
